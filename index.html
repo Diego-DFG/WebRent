@@ -11,24 +11,24 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<nav class="navegacao">
+			<nav id="navegacao" class="navegacao">
 				<div class="marca">
 					<a href="#">WebRent</a>
 				</div>
 				<div class="itens">
 					<ul class="itens-lista">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Serviços</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Contato</a></li>
+						<li><a href="#navegacao">Home</a></li>
+						<li><a href="#secao-produtos">Produtos</a></li>
+						<li><a href="#depoimentos">Clientes</a></li>
+						<li><a href="#contato">Contato</a></li>
 					</ul>
 				</div>
 			</nav>
-			<main class="destaque">
+			<main id="destaque" class="destaque">
 				
 			</main>
 			<section class="conteudo">
-				<div class="secao-produto">
+				<div id="secao-produtos" class="secao-produto">
 					<span>Garanta o Conforto De Sua Família</span>
 					<p>Não perca a oportunidade de conquistar aquele cantinho especial, onde você viverá os momentos mais felizes ao lado das pessoas mais importantes da sua vida com segurança, lazer e conforto </p>
 				</div>
@@ -115,9 +115,39 @@
 							</div>
 						</div>
 					</div>
+					<div id="depoimentos" class="secao-depoimentos">
+						<span>A satisfação de nossos clientes é a nossa marca.</span>
+						<p>Nosso compromisso é no bem servir. Nossa equipe de analistas e corretores está sempre pronta para apresentar as melhores soluções </p>
+					</div>
+					<div class="depoimentos">
+						<div class="titulo-destaque">
+							<h1>Depoimentos</h1>
+						</div>
+						<div class="cliente cliente1">
+							<img src="./img/depoimento1.jpg" class="img-thumbnail">
+							<div class="cliente-detalhes">
+								<span>Laura - RJ</span>
+								<p>"Foi realmente incrível conseguir exatamente o imóvel que eu tanto dejava, parabéns à WEBRENT"</p>
+							</div>
+						</div>
+						<div class="cliente cliente2">
+							<img src="./img/depoimento2.jpg" class="img-thumbnail">
+							<div class="cliente-detalhes">
+								<span>Cláudia - SP</span>
+								<p>"Com a WEBRENT sempre tem negócio, poder negociar minhas parcelas para pagamento só após 6 meses foi fundamental para a segurança financeira da minha família"</p>
+							</div>
+						</div>
+						<div class="cliente cliente2">
+							<img src="./img/depoimento4.jpg" class="img-thumbnail">
+							<div class="cliente-detalhes">
+								<span>Thiago - MG</span>
+								<p>"Equipe de analistas muito bem informada sobre o mercado. Parabéns pelas ótimas soluções!"</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
-			<footer class="rodape">
+			<footer id="contato" class="rodape">
 				<div class="rodape-container">
 					<ul class="rodape-lista">
 						<li>
@@ -164,6 +194,9 @@
 							<a>Outros serviços</a>
 						</li>
 					</ul>
+					<span class="contato-titulo active">Contato</span>
+					<span class="contato-email">Email: contato@webrent.com.br</span>
+					<span class="contato-telefone">Tel.: (21) 2222-2222</span>
 					<ul class="social-media">
 						<li>
 							<a class="active"><i class="fab fa-facebook"></i></a>
