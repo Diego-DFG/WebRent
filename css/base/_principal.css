@@ -3,44 +3,44 @@
 /*General Styles ----------------------------------------------------------------------------------------------*/
 
 body { padding: 0; margin: 0; overflow-x: hidden; }
-	.wrapper {height: 3880px; overflow: hidden; display: grid; 
-				grid-template-areas: "nav" "main" "section" "footer"; 
-				grid-template-rows: 1.5% 16% 74.5% 8%; background: #1f3c88; 
+	.wrapper {overflow: hidden; background: #1f3c88; 
 				font-family: 'Roboto Condensed', sans-serif;}
-		.navegacao { grid-area: nav; display: flex; 
+		.navegacao { height: 5rem; display: flex; 
 					justify-content: space-between; 
 					font-family: 'Roboto Condensed', sans-serif;}
-			.marca { position: relative; top: 10px; left: 25%; font-size: 2em; }
+			.marca { margin-left: 1rem; font-size: 2em; }
 			.marca a { text-decoration: none; color: #fff; font-weight: bold; }
-			.itens { margin-right: 25%; position: relative; top: 20px; }
+			.toggle { display: none; }
+			.toggle-btn { color: #fff; border: 1px solid #fff; padding: 1rem 2rem; border-radius: 0.5rem; }
+			.itens { margin-right: 25%; margin-top: 1rem; }
 			.itens-lista { display: flex; }
 			.itens-lista li { margin-right: 2em; list-style: none; }
 			.itens-lista li a { text-decoration: none; color: #fff;}
-		.destaque { grid-area: main; background: url('../img/imob0.jpg')no-repeat center/cover; }
-		.conteudo { grid-area: section; }
+		.destaque { height: 30rem; background: url('../../img/imob0.jpg')no-repeat center/cover; }
+		.conteudo { height: 160rem; }
 			.titulo-destaque { background: #fff; }
-			.secao-produto { height: 10%; text-align: center; color: #fff; margin-top: 5em; }
-			.secao-produto span { font-size: 3em; font-weight: bold; }
-			.secao-produto p { font-size: 1.5em; }
+			.secao-produto { display: flex; flex-direction: column; justify-content: center; align-items: center; 
+						height: 15rem; color: #fff; }
+			.secao-produto-titulo { margin-left: 2rem; font-size: 3em; font-weight: bold; }
+			.secao-produto-paragrafo { margin: 0 2rem; font-size: 1.3em; text-align: center; }
 			.validacao { height: 90%; background: #fff; 
 								justify-content: space-between; }
 				.titulo-destaque h1 { padding-top: 1em; margin-left: 2em; font-size: 2em;}					
 				.secao-validacao{ display: flex; border-top: 1px solid rgba(0,0,0,0.2); 
 									border-bottom: 1px solid rgba(0,0,0,0.2);}
-					.cartao { height: 500px; text-align: center; margin: 2em 2em 2em 2em; 
+					.cartao { height: 32rem; width: 20rem; text-align: center; margin: 2rem 1rem 2rem 0.3rem; 
 								border: 1px solid rgba(0,0,0,0.2); 
 								box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2); }
-					.carousel-item { display: flex; }
 					.cartao-detalhes { margin-top: 1em; }
-					.cartao span { font-size: 1em; }
-					.cartao p { font-family: 'Roboto', sans-serif; font-size: 0.7em; }
+					.cartao span { font-size: 1.5em; }
+					.cartao p { font-family: 'Roboto', sans-serif; }
 					.cartao1 img, .cartao5 img { height: 300px; }
 					.cartao2 img, .cartao6 img { height: 300px; width: 300px; }
 					.cartao3 img, .cartao7 img { height: 300px; width: 300px; }
 					.btn-detalhes { background: #f05454; border: none; padding: 0.5em; border-radius: 30px;
 									color: #fff; cursor: pointer; }
-				.secao-depoimentos { background: #1f3c88; height: 15%; text-align: center; 
-									color: #fff; margin-top: 2em; }
+				.secao-depoimentos { background: #1f3c88; height: 15rem; text-align: center; 
+									color: #fff; margin-top: 1em; }
 				.secao-depoimentos span { font-size: 3em; font-weight: bold; 
 											position: relative; top: 70px; }
 				.secao-depoimentos p { font-size: 1.5em; position: relative; top: 70px; }
@@ -51,7 +51,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 					.cliente-detalhes { width: 200px; height: 200px;}
 					.cliente-detalhes span { font-size: 1.7em; }
 					.cliente-detalhes p { position: relative; top: 20px; }
-		.rodape { grid-area: footer; background: #1f3c88; color: #fff; }
+		.rodape { height: 20rem; background: #1f3c88; color: #fff; }
 			.rodape-container { display: flex; }
 			.rodape-lista li { list-style: none; margin-bottom: 1em; cursor: pointer;}
 			.active { font-size: 1.7em; }
@@ -60,22 +60,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 			.contato-telefone { position: relative; right: 100px; top: 90px; }
 			.social-media li { list-style: none; position: relative; left: 100px; }
 			footer p { font-size: 1.5em; position: relative; top: 5%; left: 2.5%; }
-/*End of general styles --------------------------------------------------------------------------------------*/
 
 
 
 
-
-/*Breakpoints ------------------------------------------------------------------------------------------------*/
-
-@media (max-width: 420px) {
-
-}
-
-@media (min-width: 421px) and (max-width: 720px) {
-
-}
-
-@media (min-width: 721px) and (max-width: 920px) {
-
-}

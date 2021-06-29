@@ -1,0 +1,38 @@
+@media (max-width: 750px) {
+
+    .navegacao {
+        height: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .marca {
+        margin-left: 9rem;
+    }
+
+    .toggle {
+        display: flex;
+        width: 100%;
+    }
+
+    .toggle-btn {
+        color: #fff;
+        margin: 2rem 0; 
+        margin-left: 10rem;
+    }
+
+    .bars {
+        color: #fff;
+    }
+
+    .itens-lista {
+        display: none;
+    }
+
+    .itens-lista__btn-clicked {
+        display: flex;
+        line-height: 3;
+        margin-left: 8.5rem;
+        flex-direction: column;
+    }
+}
