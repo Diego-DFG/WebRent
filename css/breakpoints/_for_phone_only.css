@@ -1,5 +1,6 @@
 @media (max-width: 750px) {
 
+/* Navegação */
     .navegacao {
         height: 100%;
         justify-content: center;
@@ -7,7 +8,7 @@
     }
 
     .marca {
-        margin-left: 9rem;
+        margin-left: 7rem;
     }
 
     .toggle {
@@ -18,7 +19,7 @@
     .toggle-btn {
         color: #fff;
         margin: 2rem 0; 
-        margin-left: 10rem;
+        margin-left: 8rem;
     }
 
     .bars {
@@ -32,7 +33,114 @@
     .itens-lista__btn-clicked {
         display: flex;
         line-height: 3;
-        margin-left: 8.5rem;
+        margin-left: 7rem;
         flex-direction: column;
+    }
+
+/** Conteúdo */
+.conteudo {
+    height: 480rem;
+}
+
+/* Conteúdo produtos */
+
+    .secao-produto {
+        text-align: center;
+    }
+
+    .secao-produto-titulo {
+        font-size: 1.8rem;
+    }
+
+    .secao-produto-paragrafo {
+        font-size: 1rem;
+    }
+
+/* Seção validação */
+
+    .secao-validacao {
+        height: 150rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cartao {
+        margin-left: 1rem;
+        width: 19rem;
+    }
+
+    .cartao img {
+        width: 100%;
+    }
+
+    /* Seção depoimentos */
+
+    .lead-container {
+        text-align: center;
+    }
+
+    .lead-titulo {
+        top: 2rem;
+        margin: 0 1rem;
+        font-size: 1.5rem;
+    }
+
+    .lead-paragrafo {
+        margin: 1rem;
+        font-size: 0.8rem;
+    }
+
+    /* Seção depoimentos */
+
+    .depoimentos {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .depoimentos-cards-container {
+        height: 50%;
+        flex-direction: column;
+    }
+
+    .cliente {
+        height: 40rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Rodapé */
+    .rodape {
+        height: 70rem;
+    }
+
+    .rodape-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape-lista {
+        margin-bottom: 3rem;
+    }
+
+    .contato-titulo {
+        left: 2rem;
+    }
+
+    .contato-email {
+        left: 2rem;
+        margin-bottom: 6rem;
+    }
+
+    .contato-telefone {
+        top: 0rem;
+        left: 2rem;
+    }
+
+    .social-media li {
+       margin-top: 3rem;
+       left: 0rem;
+       width: 50%;
     }
 }

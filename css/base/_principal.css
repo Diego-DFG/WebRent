@@ -33,20 +33,19 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 								box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2); }
 					.cartao-detalhes { margin-top: 1em; }
 					.cartao span { font-size: 1.5em; }
+					.cartao img { height: 19rem; width: 19rem; }
 					.cartao p { font-family: 'Roboto', sans-serif; }
 					.cartao1 img, .cartao5 img { height: 300px; }
-					.cartao2 img, .cartao6 img { height: 300px; width: 300px; }
-					.cartao3 img, .cartao7 img { height: 300px; width: 300px; }
 					.btn-detalhes { background: #f05454; border: none; padding: 0.5em; border-radius: 30px;
 									color: #fff; cursor: pointer; }
-				.secao-depoimentos { background: #1f3c88; height: 15rem; text-align: center; 
-									color: #fff; margin-top: 1em; }
-				.secao-depoimentos span { font-size: 3em; font-weight: bold; 
-											position: relative; top: 70px; }
-				.secao-depoimentos p { font-size: 1.5em; position: relative; top: 70px; }
-				.depoimentos { display: flex; justify-content: space-between; }
-				.depoimentos img { height: 300px; margin-bottom: 2em;}
-					.cliente { height: 600px; position: relative; top: 105px; right: 13em;}
+				.secao-lead { background: #1f3c88; height: 15rem; color: #fff; margin-top: 1em; }
+				.lead-container { display: flex; flex-direction: column; height: 100%; width: 100%; justify-content: center; align-items: center; }
+				.lead-titulo { font-size: 3rem; font-weight: bold; margin-top: 5rem; width: 100%; }
+				.lead-paragrafo { font-size: 2rem; width: 100%; }
+				.depoimentos { background: #fff; display: flex; flex-direction: column; justify-content: space-between; }
+				.depoimentos-cards-container { height: 80%; margin-top: 2rem; display: flex; justify-content: space-around; }
+				.depoimentos img { height: 19rem; margin-bottom: 2rem;}
+					.cliente { height: 30rem; }
 					.cliente1 { position: relative; }
 					.cliente-detalhes { width: 200px; height: 200px;}
 					.cliente-detalhes span { font-size: 1.7em; }
